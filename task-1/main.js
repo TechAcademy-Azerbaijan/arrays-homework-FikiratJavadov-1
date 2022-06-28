@@ -8,7 +8,7 @@ prompt.get("input", function (err, result) {
     Vergüllə daxil edilmiş sətri iki fərqli ədədə bölmək üçün split metodundan istifadə edirik.
     */
   var input = result.input; // "5,2 4 7 12 9"
-  var arr = input.split(","); // ['5', '2 4 7 12 9']
+  var arr = input.split(" "); // ['5', '2 4 7 12 9']
 
   const arr2 = [];
 
